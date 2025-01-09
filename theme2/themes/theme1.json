@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "frame": [70, 130, 180],
+    "toolbar": [255, 255, 255],
+    "tab_text": [0, 0, 0],
+    "background_tab": [200, 200, 200]
+  },
+  "images": {
+    "theme_frame": "background1.png"
+  },
+  "properties": {
+    "ntp_background_alignment": "center",
+    "ntp_background_repeat": "no-repeat"
+  }
+}

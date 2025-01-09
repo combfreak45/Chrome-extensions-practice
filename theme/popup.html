@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Chrome Theme</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    button {
+      margin: 10px 0;
+      padding: 10px 20px;
+      border: none;
+      background: #4CAF50;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
 </head>
-<body>
-    Select Color
+<body style="width: 200px;display: flex;flex-direction: column;">
+  <h3>Customize Your Theme</h3>
+  <label for="frameColor">Frame Color:</label>
+  <input type="color" id="frameColor">
+  <label for="toolbarColor">Toolbar Color:</label>
+  <input type="color" id="toolbarColor">
+  <button id="applyTheme">Apply Theme</button>
+  <button id="resetTheme">Reset Theme</button>
+
+  <script src="popup.js"></script>
 </body>
 </html>
